@@ -12,7 +12,7 @@ func main() {
 	port := getPort()
 	e := echo.New()
 	e.GET("/", func(c echo.Context) error {
-		return c.String(http.StatusOK, "Hello, World V1!")
+		return c.String(http.StatusOK, "Hello, World V3!")
 	})
 	e.Logger.Fatal(e.Start(port))
 }
