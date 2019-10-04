@@ -1,4 +1,4 @@
-module github.com/AnuchitO/gopractical/docker
+module github.com/wutthinun/go-ajnong
 
 go 1.13
 
